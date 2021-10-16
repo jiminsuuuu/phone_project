@@ -1,5 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
+const globalRouter = require("./routers/globalRouter");
 const path = require("path");
 
 const app = express();
