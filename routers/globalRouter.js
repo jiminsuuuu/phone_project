@@ -18,5 +18,11 @@ router.get("/login", (req, res) => {
     res.render("screens/login")
 });
 
+router.get("/login", (req, res) => {
+    const emailCheckQuery = `
+        SELECT
+          FROM  personalInformations`
+})
+
 
 module.exports = router;

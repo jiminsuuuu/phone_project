@@ -1,7 +1,6 @@
 {
   "name": "phone_project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon node app.js"
@@ -16,5 +15,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiminsuuuu/phone_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiminsuuuu/phone_project/issues"
+  },
+  "homepage": "https://github.com/jiminsuuuu/phone_project#readme",
+  "description": ""
 }
