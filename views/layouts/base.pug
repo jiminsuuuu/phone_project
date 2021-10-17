@@ -6,10 +6,17 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
         link(rel="stylesheet", href="/assets/styles.css")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.7.2/css/all.css")
     body 
         header.header 
             article 
-                a(href="/") MAIN
+                i(class="fas fa-home")
+                div(class="header__box")
+                
+            article 
+                a(href="/phone") PHONE 
+            article 
+                a(href="/computer") COMPUTER  
         main
             block content 
 
