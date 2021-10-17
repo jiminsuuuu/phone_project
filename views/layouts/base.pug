@@ -6,17 +6,26 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
         link(rel="stylesheet", href="/assets/styles.css")
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.7.2/css/all.css")
     body 
         header.header 
-            article 
-                i(class="fas fa-home")
-                div(class="header__box")
+            article
+                a(href="/")
+                    i(class="fas fa-home")  
+
+                    
                 
             article 
                 a(href="/phone") PHONE 
             article 
                 a(href="/computer") COMPUTER  
+            article 
+                a(href="/tv") TV
+            article 
+                a(href="/home appliances") HOME APPLIANCES
         main
             block content 
 
