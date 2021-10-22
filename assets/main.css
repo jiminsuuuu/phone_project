@@ -1,16 +1,29 @@
-.img_box{
+.box1{
     width: 100%;
-    height: 130px;
+    height: 50px;
 }
-.img{
-    width: 100%;
-    height: 130px;
 
-    background-image: url(https://www.samsung.com/sec/static/_images/common/logo_samsung_black.svg);
-    background-repeat: no-repeat;
+.box2{
+    width: 100%;
+    height: 140px;
+
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.img_box{
+    width: 50%;
+    height: 140px;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.samsung.com/sec/static/_images/common/logo_samsung_black.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

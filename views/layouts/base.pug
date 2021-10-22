@@ -11,21 +11,32 @@ html(lang="en")
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.7.2/css/all.css")
     body 
-        header.header 
-            article
-                a(href="/")
-                    i(class="fas fa-home")  
+        div(class="header")
+            div(class="header_box1")
 
-                    
-                
-            article 
-                a(href="/phone") PHONE 
-            article 
-                a(href="/computer") COMPUTER  
-            article 
-                a(href="/tv") TV
-            article 
-                a(href="/home appliances") HOME APPLIANCES
+                article
+                    a(href="/")
+                        i(class="fas fa-home")  
+            
+                article 
+                    a(href="/phone") PHONE 
+                article 
+                    a(href="/computer") COMPUTER  
+                article 
+                    a(href="/tv") TV
+                article 
+                    a(href="/homeappliances") HOME APPLIANCES
+            div(class="header_box2")        
+                article(class="user")
+                    a(href="/signup")
+                        i(class="far fa-user") 
+
+
+
+
+
+
+            
         main
             block content 
 
