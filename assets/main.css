@@ -1,3 +1,14 @@
+@keyframes apperMenu {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .box1{
     width: 100%;
     height: 50px;
@@ -15,84 +26,69 @@
 }
 
 .img_box{
-    width: 50%;
-    height: 140px;
+    width: 28%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 .img{
     width: 100%;
-    height: 100%;
+    height: 80px;
     background-image: url(https://www.samsung.com/sec/static/_images/common/logo_samsung_black.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 500px;
 }
 .box3{
     width: 100%;
-    height: 550px;
-    background-color: red;
+    height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.samsung{
+    width: 50%;
+    height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.phone_box1{
+    width: 100%;
+    height: 500px;
+}
+.phone_picture{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://images.samsung.com/kdp/cms_contents/129194/509138d1-f163-4f57-b94f-ba793fba3007.png?$684_684_PNG$");
+    background-repeat: no-repeat;
+    background-size: 700px;
+
+}
+.phone_box2{
+    width: 100%;
+    height: 250px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+.phone_text{
+    font-weight: 700;
+    font-size: 50px;
+}
+.samsung:hover .phone_picture{
+    animation: apperMenu 2.5s forwards;
 
-.box3__box1{
-    width: 90%;
-    height: 550px;
-    background-color: blue;
-
-    display: flex;
-    flex-direction: row;
-}
-.p_box1{
-    width: 20%;
-    height: 550px;
-    background-color: yellow;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-}
-.p_box1__box1{
-    width: 70%;
-    height: 220px;
-    background-color: salmon;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.p_box1__box1__p1{
-    width: 70%;
-    height: 180px;
-    background-color: red;
-}
-.p_box2__p2{
-    width: 70%;
-    height: 220px;
-    background-color: salmon;
-}
-.p_box2{
-    width: 20%;
-    height: 550px;
-    background-color: green;
-}
-.p_box3{
-    width: 20%;
-    height: 550px;
-    background-color: black;
-}
-.p_box4{
-    width: 20%;
-    height: 550px;
-    background-color: chartreuse;
-}
-.p_box5{
-    width: 20%;
-    height: 550px;
-    background-color: purple;
 }
