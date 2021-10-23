@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: row;
 
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px white;
+    background-color: black;
+    
 
 }
 
@@ -19,12 +21,15 @@
     justify-content: center; 
 
 
-
-
     font-size: 27px;
     font-weight: 700;
 
 }
+.header_box1 a{
+    text-decoration: none;
+    color: white;
+}
+
 .header_box2{
     width: 20%;
     height: 100px;
@@ -36,27 +41,18 @@
 
     font-size: 27px;
     font-weight: 700;
-
-
-
 }
-
+.header_box2 a{
+    text-decoration: none;
+    color: white;
+}
 .header_box1 > article{
     margin: 0px 50px;
     margin-left: 60px;
 
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Festive', cursive;
 
     transition: 0.8s;
 
 }
 
-.user{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-    
 
