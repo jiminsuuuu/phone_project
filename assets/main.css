@@ -5,7 +5,7 @@
 
 .box2{
     width: 100%;
-    height: 200px;
+    height: 240px;
 
 
     display: flex;
@@ -31,8 +31,68 @@
     width: 100%;
     height: 550px;
     background-color: red;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .box3__box1{
-    width: 100%;
+    width: 90%;
+    height: 550px;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+}
+.p_box1{
+    width: 20%;
+    height: 550px;
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.p_box1__box1{
+    width: 70%;
+    height: 220px;
+    background-color: salmon;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.p_box1__box1__p1{
+    width: 70%;
+    height: 180px;
+    background-color: red;
+}
+.p_box2__p2{
+    width: 70%;
+    height: 220px;
+    background-color: salmon;
+}
+.p_box2{
+    width: 20%;
+    height: 550px;
+    background-color: green;
+}
+.p_box3{
+    width: 20%;
+    height: 550px;
+    background-color: black;
+}
+.p_box4{
+    width: 20%;
+    height: 550px;
+    background-color: chartreuse;
+}
+.p_box5{
+    width: 20%;
+    height: 550px;
+    background-color: purple;
 }
