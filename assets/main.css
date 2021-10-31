@@ -7,6 +7,20 @@
         opacity: 1;
     }
 }
+@keyframes watch {
+    0% {transform: translate(0);}
+    20% {transform: translate(-2px, 2px);}
+    40% {transform: translate(-2px, -2px);}
+    60% {transform: translate(2px, 2px);}
+    80% {transform: translate(2px, -2px);}
+    100% {transform: translate(0);}
+}
+@keyframes jump {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(200px, -200px);}
+    100% {transform: translate(400px, 0px);}
+
+}
 
 
 .box1{
@@ -44,51 +58,200 @@
 }
 .box3{
     width: 100%;
-    height: 750px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.samsung{
-    width: 50%;
-    height: 750px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-.phone_box1{
-    width: 100%;
-    height: 500px;
-}
-.phone_picture{
-    width: 100%;
-    height: 500px;
-    background-image: url("https://images.samsung.com/kdp/cms_contents/129194/509138d1-f163-4f57-b94f-ba793fba3007.png?$684_684_PNG$");
-    background-repeat: no-repeat;
-    background-size: 700px;
-
-}
-.phone_box2{
-    width: 100%;
-    height: 250px;
+    height: 850px;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-}
-.phone_text{
-    font-weight: 700;
-    font-size: 50px;
-}
-.samsung:hover .phone_picture{
-    animation: apperMenu 2.5s forwards;
+    align-items: center;
 
 }
+
+.row_box1{
+    width: 100%;
+    height: 750px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+.row_box1_box1{
+    width: 30%;
+    height: 750px;
+
+}
+.bluetooth_box1{
+    width: 80%;
+    height: 375px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+
+}
+.bluetooth_t{
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.bluetooth_p{
+    width: 100%;
+    height: 275px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OP2o1OBJA2DhWZRcP5g9DYqs1X9ew72Uyg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    cursor: pointer;
+}
+.bluetooth_box1:hover .bluetooth_p{
+    animation: apperMenu 1.5s forwards;
+}
+
+.watch_box1{
+    width: 100%;
+    height: 375px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_p{
+    width: 100%;
+    height: 300px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7adfInmkpMKVZH08ESeUL-2Uv-SUQd-ZFQg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.watch_t{
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.row_box1_box2{
+    width: 40%;
+    height: 750px;
+}
+.phone_box1{
+    width: 100%;
+    height: 750px;
+}
+.phone_p{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.costco.co.kr/medias/sys_master/images/hd0/h9c/79681090158622.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phone_t{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.row_box1_box3{
+    width: 30%;
+    height: 750px;
+}
+.tab_box1{
+    width: 100%;
+    height: 375px;
+
+    
+}
+.tab_p{
+    width: 100%;
+    height: 300px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCY9CGr_fdKyS4S0kj5Rp0DtCuiWqyuOOIQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tab_t{
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+.laptop_box1{
+    width: 100%;
+    height: 400px;
+
+}
+.laptop_p{
+    width: 100%;
+    height: 340px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2VxzbVmKwtdGhnI3NJnJY5hxIMx4Hv8GOQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.laptop_t{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+.box4{
+    width: 100%;
+    height: 1500px;
+}
+.slide_box{
+    width: 100%;
+    height: 400px;
+
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+}
+.slide_box1{
+    width: 10%;
+    height: 400px;
+    animation: jump 2s forwards;
+    background-color: yellow;
+
+}
+
