@@ -15,11 +15,49 @@
     80% {transform: translate(2px, -2px);}
     100% {transform: translate(0);}
 }
-@keyframes jump {
-    0% {transform: translate(0px, 0px);}
-    50% {transform: translate(200px, -200px);}
-    100% {transform: translate(400px, 0px);}
-
+@keyframes slide1 {
+    0%{left: 0%;}
+    23%{left:0%;}
+    25%{left:-100%;}
+    48%{left:-100%;}
+    50%{left:-200%;}
+    73%{left:-200%;}
+    75%{left:-300%;}
+    98%{left:-300%;}
+    100%{left:0%;}
+}
+@keyframes slide2 {
+    0%{left: 0%;}
+    23%{left:0%;}
+    25%{left:-100%;}
+    48%{left:-100%;}
+    50%{left:-200%;}
+    73%{left:-200%;}
+    75%{left:300%;}
+    98%{left:300%;}
+    100%{left:0%;}
+}
+@keyframes slide3 {
+    0%{left: 0%;}
+    23%{left:0%;}
+    25%{left:-100%;}
+    48%{left:-100%;}
+    50%{left:200%;}
+    73%{left:200%;}
+    75%{left:300%;}
+    98%{left:300%;}
+    100%{left:0%;}
+}
+@keyframes slide4 {
+    0%{left: 0%;}
+    23%{left:0%;}
+    25%{left:100%;}
+    48%{left:100%;}
+    50%{left:200%;}
+    73%{left:200%;}
+    75%{left:300%;}
+    98%{left:300%;}
+    100%{left:0%;}
 }
 
 
@@ -114,6 +152,7 @@
     background-size: cover;
 
     cursor: pointer;
+
 }
 .bluetooth_box1:hover .bluetooth_p{
     animation: apperMenu 1.5s forwards;
@@ -236,22 +275,515 @@
 }
 .box4{
     width: 100%;
-    height: 1500px;
+    height: 950px;
 }
 .slide_box{
     width: 100%;
-    height: 400px;
+    height:950px;
+    background-color: black;
+}
 
+
+.slidelist{
     white-space: nowrap;
+    overflow: hidden;
+}
+.slidelist > li{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    transition: all 1s;
+}
+.slide_p{
+    width: 100%;
+    z-index: 1;
+}
+
+.slide_p label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    cursor: pointer;
+}
+label.left {
+    left: 30px;
+
+}
+label.right {
+    right: 30px;
+}
+
+[id="slide1"]:checked ~ .slidelist .slide_p {transform: translateX(0);animation: slide1 16s infinite;}
+[id="slide2"]:checked ~ .slidelist .slide_p {transform: translateX(-100%);animation: slide2 16s infinite;}
+[id="slide3"]:checked ~ .slidelist .slide_p {transform: translateX(-200%);animation: slide3 16s infinite;}
+[id="slide4"]:checked ~ .slidelist .slide_p {transform: translateX(-300%);animation: slide4 16s infinite;}
+
+
+.box5 {
+    width: 100%;
+    height: 1200px;
+
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.column {
+    width: 99%;
+    height: 100%;
+
+    display: flex;
+
+}
+.column_box1{
+    width: 33%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.column_p{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/04/27/ece5408b-6c38-4a55-8ec0-adca91960e9a.png?$PF_PRD_PNG$);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.column_text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.column_text1 > p {
+    margin: 15px;
+}
+.column_text1 p:nth-child(1) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text1 p:nth-child(2) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text1 p:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text1 p:nth-child(4) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text1 p:nth-child(5) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text1 p:nth-child(6) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text1 p:nth-child(7) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text1 p:nth-child(8) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text1 p:nth-child(9) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text1 p:nth-child(10) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.line1{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+}
+.column_box2{
+    width: 33%;
+    height: 100%;
+}
+.column_p2{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.samsung.com/kdp/goods/2020/12/08/95a16159-ec47-4b17-9552-7c4d92fac7a9.png?$PF_PRD_PNG$);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.column_text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column_text2 > p {
+    margin: 15px;
+}
+.column_text2 p:nth-child(1) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text2 p:nth-child(2) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text2 p:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text2 p:nth-child(4) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text2 p:nth-child(5) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text2 p:nth-child(6) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text2 p:nth-child(7) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text2 p:nth-child(8) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text2 p:nth-child(9) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text2 p:nth-child(10) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.line2{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+}
+.column_box3{
+    width: 33%;
+    height: 600px;
+}
+.column_p3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/05/04/2a5cc7b3-f3c5-4c74-b21d-b59dd1f44578.png?$PF_PRD_PNG$);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column_text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column_text3 > p {
+    margin: 15px;
+}
+.column_text3 p:nth-child(1) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text3 p:nth-child(2) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text3 p:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text3 p:nth-child(4) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text3 p:nth-child(5) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text3 p:nth-child(6) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text3 p:nth-child(7) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text3 p:nth-child(8) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+.column_text3 p:nth-child(9) {
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+}
+.column_text3 p:nth-child(10) {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.color{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+
+    color: white; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer > p {
+    margin: 10px;
+}
+.color{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.window1{
+    width: 100%;
+    height: 900px;
+}
+.window1 .row_box1{
+    width: 100%;
+    height: 50%;
+
+}
+
+.window1 .row_box1 .picture1 {
+    width: 50%;
+    height: 100%;
+
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+}
+.picture1 img{
+    max-width: 100%;
+}
+.picture1 span.text{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.picture1::after, .picture1::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%, -50%);
+    transition: all .8s;
+}
+.picture1::before {
+    border-top: 4px solid hotpink;
+    border-bottom: 4px solid hotpink;
+    width: 0;
+}
+.picture1::after {
+    border-left: 4px solid purple;
+    border-right: 4px solid purple;
+    height: 0;
+}
+.picture1:hover span.text{display: block;}
+.picture1:hover::after{height: 95%;}
+.picture1:hover::before{width: 95%;}
+
+
+.window1 .row_box1 .picture2 {
+    width: 50%;
+    height: 100%;
+
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+}
+.picture2 img{
+    max-width: 100%;
+}
+.picture2 span.text2{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.picture2::after, .picture2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%, -50%);
+    transition: all .8s;
+}
+.picture2::before {
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+    width: 0;
+}
+.picture2::after {
+    border-left: 4px solid orange;
+    border-right: 4px solid orange;
+    height: 0;
+}
+.picture2:hover span.text2{display: block;}
+.picture2:hover::after{height: 95%;}
+.picture2:hover::before{width: 95%;}
+
+.window1 .row_box2 {
+    width: 100%;
+    height: 50%;
 
     display: flex;
     flex-direction: row;
 }
-.slide_box1{
-    width: 10%;
-    height: 400px;
-    animation: jump 2s forwards;
-    background-color: yellow;
+.window1 .row_box2 .picture3 {
+    width: 50%;
+    height: 100%;
 
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
 }
 
+.picture3 img{
+    max-width: 100%;
+}
+.picture3 span.text3{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.picture3::after, .picture3::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%, -50%);
+    transition: all .8s;
+}
+.picture3::before {
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+    width: 0;
+}
+.picture3::after {
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    height: 0;
+}
+.picture3:hover span.text3{display: block;}
+.picture3:hover::after{height: 95%;}
+.picture3:hover::before{width: 95%;}
+
+.window1 .row_box2 .picture4 {
+    width: 50%;
+    height: 100%;
+
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+}
+.picture4 img{
+    max-width: 100%;
+}
+.picture4 span.text4{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.picture4::after, .picture4::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%, -50%);
+    transition: all .8s;
+}
+.picture4::before {
+    border-top: 4px solid brown;
+    border-bottom: 4px solid brown;
+    width: 0;
+}
+.picture4::after {
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    height: 0;
+}
+.picture4:hover span.text4{display: block;}
+.picture4:hover::after{height: 95%;}
+.picture4:hover::before{width: 95%;}
