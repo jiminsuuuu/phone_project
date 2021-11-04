@@ -1,13 +1,18 @@
-extends ../layouts/base.pug
-
-block content 
-    div.loginBox
-        form(action="/login" method="post")
-            div
-                label(htmlFor="email") E-MAIL
-                input(type="email" name="email" id="email" required)
-            div
-                label(htmlFor="password") PASSWORD 
-                input(type="password" value="작성" name="password" id="password" required) 
-
-            input(type="submit" name="로그인")
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body 
+        div.login_box
+            form(action="/login" method="POST")
+                div
+                    label(htmlFor="email") E-MAIL
+                    input(type="email" name="email" id="email" required)
+                div
+                    label(htmlFor="password") PASSWORD
+                    input(type="password" name="password" id="password" required)
+                        
+                input(type="submit" value="로그인")

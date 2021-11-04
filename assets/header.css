@@ -1,65 +1,54 @@
 .header {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    border-bottom: solid 2px white;
-    background-color: black;
+  border-bottom: solid 2px white;
+  background-color: black;
 
-    position: fixed;
- 
-    z-index: 2;    
-    
+  position: fixed;
+
+  z-index: 2;
 }
 
-.header_box1{
-    width: 80%;
-    height: 100px;
+.header_box1 {
+  width: 80%;
+  height: 100px;
 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-
-
-    font-size: 27px;
-    font-weight: 700;
-
-
+  font-size: 27px;
+  font-weight: 700;
 }
-.header_box1 a{
-    text-decoration: none;
-    color: white;
+.header_box1 a {
+  text-decoration: none;
+  color: white;
 }
 
-.header_box2{
-    width: 20%;
-    height: 100px;
+.header_box2 {
+  width: 20%;
+  height: 100px;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    font-size: 27px;
-    font-weight: 700;
-
-
+  font-size: 27px;
+  font-weight: 700;
 }
-.header_box2 a{
-    text-decoration: none;
-    color: white;
+.header_box2 a {
+  text-decoration: none;
+  color: white;
 }
-.header_box1 > article{
-    margin: 0px 50px;
-    margin-left: 60px;
+.header_box1 > article {
+  margin: 0px 50px;
+  margin-left: 60px;
 
-
-    transition: 0.8s;
-
+  transition: 0.8s;
 }
-
-
