@@ -1,0 +1,13 @@
+extends ../layouts/base.pug
+
+block content 
+    div.loginBox
+        form(action="/login" method="post")
+            div
+                label(htmlFor="email") E-MAIL
+                input(type="email" name="email" id="email" required)
+            div
+                label(htmlFor="password") PASSWORD 
+                input(type="password" value="작성" name="password" id="password" required) 
+
+            input(type="submit" name="로그인")
