@@ -1,5 +1,197 @@
 .p_box1{
     width: 100%;
     height: 400px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.half_box1{
+    width: 50%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: 600;
+}
+.half_box2{
+    width: 50%;
+    height: 100%;
+    background-image:url(https://letsgomyhouse.com/wp-content/uploads/2021/08/image-1.png?x36947); 
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.color1{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+}
+.phone_row_box1{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+.phone_row_box1 .phone_picture_box1{
+    width: 32%;
+    height: 100%;
+
+}
+.phone_row_box1 .phone_picture_box1 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone_row_box1 .phone_picture_box1 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/08/27/36c244ac-27f5-49c7-8183-edbbcf37b83f.png?$PF_PRD_KDP_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.phone_row_box1 .phone_picture_box1 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black1{
+    width: 1%;
+    height: 100%;
     background-color: black;
+}
+.phone_row_box1 .phone_picture_box2 {
+    width: 32%;
+    height: 100%;
+    
+
+}
+
+.phone_row_box1 .phone_picture_box2 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone_row_box1 .phone_picture_box2 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/08/12/fcf1e9b6-5c52-43ef-aff7-ec2f266c501b.png?$PF_PRD_KDP_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.phone_row_box1 .phone_picture_box2 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black2{
+    width: 1%;
+    height: 100%;
+    background-color: black;
+}
+.phone_row_box1 .phone_picture_box3 {
+    width: 32%;
+    height: 100%;
+
+}
+.phone_row_box1 .phone_picture_box3 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone_row_box1 .phone_picture_box3 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/01/12/64998ec6-3435-45db-8f68-cf757544420f.png?$240_240_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.phone_row_box1 .phone_picture_box3 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.phone_row_box2{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.phone_row_box2 .phone_picture_box1 {
+    width: 32%;
+    height: 100%;
+
+    
+}
+.phone_row_box2 .phone_picture_box1 .p_box{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.phone_row_box2 .phone_picture_box1 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.phone_row_box2 .phone_picture_box1 .t_box {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 40px;
 }
