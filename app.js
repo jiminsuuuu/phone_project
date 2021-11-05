@@ -8,6 +8,8 @@ const PORT = 4000;
 
 app.set("view engine", "pug");
 app.use(morgan(`dev`));
+app.use(express.urlencoded({ extended: true}));
+app.use(express.json())
 
 app.use("/", globalRouter)
 

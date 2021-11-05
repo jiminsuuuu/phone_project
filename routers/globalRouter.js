@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config();
-const mysql2 = require("mysql2")
+const mysql2 = require("mysql2");
 const router = express.Router();
 
 const dbConfig = {
@@ -48,41 +48,61 @@ router.get("/loginpage", (req, res) => {
     res.render("screens/signin")
 });
 
-router.get("/signup", (req,res) => {
+router.get("/signup", (req, res) => {
     res.render("screens/signup")
 });
+
 
 router.get("/tv", (req,res)=>{
     res.render("screens/tv");
 });
 
-router.post("/informations", (req, res) => {
-const signupQuery = `
-    INSERT INTO personalInformations (
-        name,
-        birth,
-        gender,
-        phonenum,
-        email,
-        password
-    ) VALUE (
-        "${req.body.name}"",
-        "${req.body.birth}",
-        "${req.body.gender}",
-        "${req.body.phonenum}",
-        "${req.body.email}",
-        "${req.body.password}"
-    )
-    `;
-    conn.query(signupQuery, (error, result) => {
-        if(error){
-            console.error(error);
-            return res.status(400).send("회원가입에 실패했습니다.")
+router.post("/informations", (req, res, next) => {
+    const idCheckQuery = `
+        SELECT  email
+          FROM  personalInformations
+         WHERE  email="${req.body.email}"
+        `;
+
+    conn.query(idCheckQuery, (error, result) => {
+        if(error) {
+            return res.status(403).send("다시 시도해 주세요.")
         } else {
-            res.status(201).send("회원가입 되었습니다.");
+            if(result.length>0) {
+                return res.render("screens/signup")
+                         res.status(403).send("이미 존재하는 이메일 입니다.");
+            } else {
+                const signupQuery = `
+                INSERT INTO personalInformations (
+                    name,
+                    birth,
+                    gender,
+                    phonenum,
+                    email,
+                    password
+                ) VALUE (
+                    "${req.body.name}",
+                    "${req.body.birth}",
+                    "${req.body.gender}",
+                    "${req.body.phonenum}",
+                    "${req.body.email}",
+                    "${req.body.password}"
+                )
+                 `;
+                 conn.query(signupQuery, (error, result) => {
+                    if(error){
+                        console.error(error);
+                        return res.status(400).send("회원가입에 실패했습니다.")
+                    } else {
+                        return res.render("screens/main")
+                    }
+                });
+            }
         }
     });
 });
+    
+    
 
 
 module.exports = router;
