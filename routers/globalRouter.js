@@ -52,7 +52,6 @@ router.get("/signup", (req, res) => {
     res.render("screens/signup")
 });
 
-
 router.get("/tv", (req,res)=>{
     res.render("screens/tv");
 });
@@ -70,7 +69,6 @@ router.post("/informations", (req, res, next) => {
         } else {
             if(result.length>0) {
                 return res.render("screens/signup")
-                         res.status(403).send("이미 존재하는 이메일 입니다.");
             } else {
                 const signupQuery = `
                 INSERT INTO personalInformations (
@@ -101,6 +99,25 @@ router.post("/informations", (req, res, next) => {
         }
     });
 });
+
+router.post("/login" ,(req, res) => {
+    const loginQuery = `
+        SELECT  email,
+                password
+          FROM  personalInformations
+         WHERE  email = "${req.body.email}"
+           AND  password = "${req.body.password}"
+        `;
+    conn.query(loginQuery, (error, result) => {
+        if(error) {
+            console.error(error);
+            return res.status(403).send("다시 시도해 주세요.")
+        } else {
+             
+            
+        }
+    })
+})
     
     
 

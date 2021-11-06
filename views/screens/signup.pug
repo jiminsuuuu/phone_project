@@ -1,6 +1,6 @@
 extends ../layouts/base.pug
 
-block content 
+block content  
         div.signupBox
             form(action="/informations" method="POST")
                 div.NAME
@@ -8,7 +8,7 @@ block content
                     input(type="name" name="name" required)
                 div.BIRTH
                     label(htmlFor="birth") BIRTH : 
-                    input(type="text" name="birth" required)
+                    input(type="text" name="birth" placeholder="YYYY/MM/DD" required)
                 div.GENDER
                     label(htmlFor="gender") GENDER :  
                         select(name="gender" required)
@@ -16,12 +16,12 @@ block content
                             option(value="female") 여성
                 div.PHONENUM
                     label(htmlFor="phonenum") PHONE NUMBER : 
-                    input(type="text" name="phonenum" required)
+                    input(type="text" name="phonenum" placeholder="XXX-XXXX-XXXX" required)
                 div.EMAIL
                     label(htmlFor="email") E-MAIL : 
                     input(type="email" name="email" required)
                 div.PASSWORD
                     label(htmlFor="password") PASSWORD :  
                     input(type="password" name="password"  required)   
-                input(type="submit" name="회원가입하기")
+                button(onclick="javascript:alert()") 회원가입
 
