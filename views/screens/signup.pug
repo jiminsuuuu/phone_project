@@ -1,13 +1,6 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document  
-        link(rel="stylesheet", href="/assets/signup.css")
+extends ../layouts/base.pug
 
-    body 
+block content
         script(src="/assets/sign.js") 
 
         div.signupBox
@@ -21,8 +14,8 @@ html(lang="en")
                 div.GENDER
                     label(htmlFor="gender") GENDER :  
                         select(name="gender" required)
-                            option(value="male") 남성
-                            option(value="female") 여성
+                            option(value="남성") 남성
+                            option(value="여성") 여성
                 div.PHONENUM
                     label(htmlFor="phonenum") PHONE NUMBER : 
                     input(type="text" name="phonenum" placeholder="XXX-XXXX-XXXX" required)
@@ -32,7 +25,7 @@ html(lang="en")
                 div.PASSWORD
                     label(htmlFor="password") PASSWORD :  
                     input(type="password" name="password"  required)   
-                button(onclick="javascript:signin()") 회원가입
+                button(onclick="javascript:signup()") 회원가입
         
 
 

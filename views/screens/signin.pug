@@ -1,6 +1,8 @@
 extends ../layouts/base.pug
 
 block content 
+    script(src="/assets/sign.js")
+
     div.login_box
             form(action="/login" method="POST")
                 div.email
@@ -9,7 +11,7 @@ block content
                 div.password
                     label(htmlFor="password") PASSWORD : 
                     input(type="password" name="password" id="passwrod" required)
-                input(type="submit" value="LOGIN")  
+                button(onclick="javascript:signin()") 로그인
 
             form(action="/signup" method="GET")
-                    button   SIGN UP
+                button 회원가입하기
