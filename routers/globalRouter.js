@@ -52,9 +52,7 @@ router.get("/signup", (req, res) => {
     res.render("screens/signup")
 });
 
-router.get("/tv", (req,res)=>{
-    res.render("screens/tv");
-});
+
 
 router.post("/informations", (req, res, next) => {
     const idCheckQuery = `

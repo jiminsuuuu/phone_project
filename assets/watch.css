@@ -1,0 +1,442 @@
+.w_box1{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.w_box1 .half_box1{
+    width: 50%;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: 600;
+}
+.w_box1 .half_box2{
+    width: 50%;
+    height: 100%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Oz0xdiCNOEUjtfzTfGvYquOGjGyoQCxj2g&usqp=CAU); 
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.color1{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+}
+.watch_row_box1{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+.watch_row_box1 .watch_picture_box1{
+    width: 32%;
+    height: 100%;
+
+}
+.watch_row_box1 .watch_picture_box1 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box1 .watch_picture_box1 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/08/03/dcc1a39e-51f7-4396-afed-c9a1bdcfb95a.png?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box1 .watch_picture_box1 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black1{
+    width: 1%;
+    height: 100%;
+    background-color: black;
+}
+.watch_row_box1 .watch_picture_box2 {
+    width: 32%;
+    height: 100%;
+    
+
+}
+
+.watch_row_box1 .watch_picture_box2 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box1 .watch_picture_box2 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/08/04/3f508ece-d44f-4951-8cae-3691b22dd99b.png?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box1 .watch_picture_box2 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black2{
+    width: 1%;
+    height: 100%;
+    background-color: black;
+}
+.watch_row_box1 .watch_picture_box3 {
+    width: 32%;
+    height: 100%;
+
+}
+.watch_row_box1 .watch_picture_box3 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box1 .watch_picture_box3 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/09/07/e1a2b0d0-583e-48de-9fdd-ae1fa7cc9309.png?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box1 .watch_picture_box3 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.row_black1{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.row_black1 .text_box1{
+    color: white;
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.watch_row_box2{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.watch_row_box2 .watch_picture_box1 {
+    width: 32%;
+    height: 100%;
+}
+.watch_row_box2 .watch_picture_box1 .p_box{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.watch_row_box2 .watch_picture_box1 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/sec/galaxy-note20/gallery/sec-galaxy-watch3-r855-sm-r855nzdakoo-frontmysticbronze-thumb-274556305?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box2 .watch_picture_box1 .t_box {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.watch_row_box2 .watch_picture_box2 {
+    width: 32%;
+    height: 10;
+}
+.watch_row_box2 .watch_picture_box2 .p_box{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.watch_row_box2 .watch_picture_box2 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/sec/galaxy-note20/gallery/sec-galaxy-watch3-r845-sm-r845nzkakoo-frontmysticblack-thumb-274556139?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box2 .watch_picture_box2 .t_box {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+
+.watch_row_box2 .watch_picture_box3 {
+    width: 32%;
+    height: 100%;
+}
+.watch_row_box2 .watch_picture_box3 .p_box{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.watch_row_box2 .watch_picture_box3 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/sec-galaxy-watch3-r840-titanum-sm-r840ntkak01-fronttitaniumgray-thumb-296038145?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box2 .watch_picture_box3 .t_box {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.row_black2{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.row_black2 .text_box2{
+    color: white;
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.watch_row_box3{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+}
+.watch_row_box3 .watch_picture_box1{
+    width: 32%;
+    height: 100%;
+
+}
+.watch_row_box3 .watch_picture_box1 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box3 .watch_picture_box1 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/sec-galaxy-watch-active2-r820-sm-r820nssakoo-thumb-Silver-184700862?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box3 .watch_picture_box1 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black1{
+    width: 1%;
+    height: 100%;
+    background-color: black;
+}
+.watch_row_box3 .watch_picture_box2 {
+    width: 32%;
+    height: 100%;
+}
+
+.watch_row_box3 .watch_picture_box2 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box3 .watch_picture_box2 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/kdp/goods/2021/01/15/57682308-e112-428b-a6b6-d6e3d74e4847.png?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box3 .watch_picture_box2 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.black2{
+    width: 1%;
+    height: 100%;
+    background-color: black;
+}
+.watch_row_box3 .watch_picture_box3 {
+    width: 32%;
+    height: 100%;
+
+}
+.watch_row_box3 .watch_picture_box3 .p_box{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch_row_box3 .watch_picture_box3 .p_box .p{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/sec-galaxy-watch-active2-golf-edition-sm-r820n-sm-r820nzkgk01-frontblack-thumb-214744777?$PF_PRD_PNG$);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.watch_row_box3 .watch_picture_box3 .t_box {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 40px;
+}
+.row_black3{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.row_black3 .text_box3{
+    color: white;
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
