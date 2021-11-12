@@ -1,4 +1,4 @@
-.phone_box1{
+.p_box1{
     width: 100%;
     height: 400px;
 
@@ -19,10 +19,10 @@
     font-size: 50px;
     font-weight: 600;
 }
-.phone_box1 .half_box2{
+.half_box2{
     width: 50%;
     height: 100%;
-    background-image:url(https://letsgomyhouse.com/wp-content/uploads/2021/08/image-1.png?x36947); 
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuMydi2tyBKLmbXgs16RBOrDpfM2c0KDoUQQ&usqp=CAU); 
     background-size: 80%;
     background-repeat: no-repeat;
 }
@@ -31,19 +31,19 @@
     height: 20px;
     background-color: grey;
 }
-.phone_row_box1{
+.earphone_row_box1{
     width: 100%;
-    height: 600px;
+    height: 600px;  
 
     display: flex;
     flex-direction: row;
 }
-.phone_row_box1 .phone_picture_box1{
+.earphone_row_box1 .earphone_picture_box1{
     width: 32%;
     height: 100%;
 
 }
-.phone_row_box1 .phone_picture_box1 .p_box{
+.earphone_row_box1 .earphone_picture_box1 .p_box{
     width: 100%;
     height: 80%;
 
@@ -53,14 +53,14 @@
     justify-content: center;
 
 }
-.phone_row_box1 .phone_picture_box1 .p_box .p{
+.earphone_row_box1 .earphone_picture_box1 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/08/27/36c244ac-27f5-49c7-8183-edbbcf37b83f.png?$PF_PRD_KDP_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/07/07/1575d26c-4935-4bbb-a085-b0e5e3378d56.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box1 .phone_picture_box1 .t_box {
+.earphone_row_box1 .earphone_picture_box1 .t_box {
     width: 100%;
     height: 20%;
 
@@ -77,14 +77,13 @@
     height: 100%;
     background-color: black;
 }
-.phone_row_box1 .phone_picture_box2 {
+.earphone_row_box1 .earphone_picture_box2 {
     width: 32%;
     height: 100%;
-    
 
 }
 
-.phone_row_box1 .phone_picture_box2 .p_box{
+.earphone_row_box1 .earphone_picture_box2 .p_box{
     width: 100%;
     height: 80%;
 
@@ -94,14 +93,14 @@
     justify-content: center;
 
 }
-.phone_row_box1 .phone_picture_box2 .p_box .p{
+.earphone_row_box1 .earphone_picture_box2 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/08/12/fcf1e9b6-5c52-43ef-aff7-ec2f266c501b.png?$PF_PRD_KDP_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/05/07/8f9d1023-202d-4da0-a9a1-d357d07b95a7.png?$PF_PRD_KDP_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box1 .phone_picture_box2 .t_box {
+.earphone_row_box1 .earphone_picture_box2 .t_box {
     width: 100%;
     height: 20%;
 
@@ -118,12 +117,12 @@
     height: 100%;
     background-color: black;
 }
-.phone_row_box1 .phone_picture_box3 {
+.earphone_row_box1 .earphone_picture_box3 {
     width: 32%;
     height: 100%;
 
 }
-.phone_row_box1 .phone_picture_box3 .p_box{
+.earphone_row_box1 .earphone_picture_box3 .p_box{
     width: 100%;
     height: 80%;
 
@@ -133,14 +132,14 @@
     justify-content: center;
 
 }
-.phone_row_box1 .phone_picture_box3 .p_box .p{
+.earphone_row_box1 .earphone_picture_box3 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/08/12/97199d75-dab7-4579-b00b-79a70225a88c.png?$PF_PRD_KDP_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/04/12/805f38a9-2811-4602-8685-af53ab791e07.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box1 .phone_picture_box3 .t_box {
+.earphone_row_box1 .earphone_picture_box3 .t_box {
     width: 100%;
     height: 20%;
 
@@ -171,7 +170,7 @@
 }
 
 
-.phone_row_box2{
+.earphone_row_box2{
     width: 100%;
     height: 600px;
 
@@ -179,11 +178,11 @@
     flex-direction: row;
 }
 
-.phone_row_box2 .phone_picture_box1 {
+.earphone_row_box2 .earphone_picture_box1 {
     width: 32%;
     height: 100%;
 }
-.phone_row_box2 .phone_picture_box1 .p_box{
+.earphone_row_box2 .earphone_picture_box1 .p_box{
     width: 100%;
     height: 80%;
     
@@ -193,14 +192,14 @@
     justify-content: center;
     
 }
-.phone_row_box2 .phone_picture_box1 .p_box .p{
+.earphone_row_box2 .earphone_picture_box1 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/01/12/64998ec6-3435-45db-8f68-cf757544420f.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/07/27/e38b0ee9-1ba8-4f60-8a01-da4c0cd1c298.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box2 .phone_picture_box1 .t_box {
+.earphone_row_box2 .earphone_picture_box1 .t_box {
     width: 100%;
     height: 20%;
     
@@ -214,11 +213,11 @@
 }
 
 
-.phone_row_box2 .phone_picture_box2 {
+.earphone_row_box2 .earphone_picture_box2 {
     width: 32%;
     height: 100%;
 }
-.phone_row_box2 .phone_picture_box2 .p_box{
+.earphone_row_box2 .earphone_picture_box2 .p_box{
     width: 100%;
     height: 80%;
     
@@ -228,14 +227,14 @@
     justify-content: center;
     
 }
-.phone_row_box2 .phone_picture_box2 .p_box .p{
+.earphone_row_box2 .earphone_picture_box2 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/01/12/5d169f94-1503-41fb-885c-8af8aceee559.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/10/13/542db7a0-1b5a-4d4e-955f-f57d2295e2a8.png?$PF_PRD_KDP_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box2 .phone_picture_box2 .t_box {
+.earphone_row_box2 .earphone_picture_box2 .t_box {
     width: 100%;
     height: 20%;
     
@@ -250,11 +249,11 @@
 
 
 
-.phone_row_box2 .phone_picture_box3 {
+.earphone_row_box2 .earphone_picture_box3 {
     width: 32%;
     height: 100%;
 }
-.phone_row_box2 .phone_picture_box3 .p_box{
+.earphone_row_box2 .earphone_picture_box3 .p_box{
     width: 100%;
     height: 80%;
     
@@ -264,14 +263,14 @@
     justify-content: center;
     
 }
-.phone_row_box2 .phone_picture_box3 .p_box .p{
+.earphone_row_box2 .earphone_picture_box3 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/is/image/samsung/sec-galaxy-s20-fe-5g-g781-sm-g781nzbakoo--thumb-thumb-307316204?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/10/07/2feb3d94-d3a3-4a7d-bcce-f7ac87432cea.png?$PF_PRD_KDP_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box2 .phone_picture_box3 .t_box {
+.earphone_row_box2 .earphone_picture_box3 .t_box {
     width: 100%;
     height: 20%;
     
@@ -303,19 +302,19 @@
 }
 
 
-.phone_row_box3{
+.earphone_row_box3{
     width: 100%;
     height: 600px;
 
     display: flex;
     flex-direction: row;
 }
-.phone_row_box3 .phone_picture_box1{
+.earphone_row_box3 .earphone_picture_box1{
     width: 32%;
     height: 100%;
 
 }
-.phone_row_box3 .phone_picture_box1 .p_box{
+.earphone_row_box3 .earphone_picture_box1 .p_box{
     width: 100%;
     height: 80%;
 
@@ -325,14 +324,14 @@
     justify-content: center;
 
 }
-.phone_row_box3 .phone_picture_box1 .p_box .p{
+.earphone_row_box3 .earphone_picture_box1 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/08/27/2a26b921-7558-4eda-b399-6c52c7595f7b.png?$PF_PRD_KDP_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/08/31/a64af93e-3990-46d5-bf85-e54776e53e15.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box3 .phone_picture_box1 .t_box {
+.earphone_row_box3 .earphone_picture_box1 .t_box {
     width: 100%;
     height: 20%;
 
@@ -349,12 +348,12 @@
     height: 100%;
     background-color: black;
 }
-.phone_row_box3 .phone_picture_box2 {
+.earphone_row_box3 .earphone_picture_box2 {
     width: 32%;
     height: 100%;
 }
 
-.phone_row_box3 .phone_picture_box2 .p_box{
+.earphone_row_box3 .earphone_picture_box2 .p_box{
     width: 100%;
     height: 80%;
 
@@ -364,14 +363,14 @@
     justify-content: center;
 
 }
-.phone_row_box3 .phone_picture_box2 .p_box .p{
+.earphone_row_box3 .earphone_picture_box2 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/03/09/4a5712f6-8b7a-4b9f-a705-96d35b5197e3.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/is/image/samsung/sec-galaxy-buds-plus-r175-bts-sm-r175nzpbkoo-frontbpurple-thumb-257065372?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box3 .phone_picture_box2 .t_box {
+.earphone_row_box3 .earphone_picture_box2 .t_box {
     width: 100%;
     height: 20%;
 
@@ -388,12 +387,12 @@
     height: 100%;
     background-color: black;
 }
-.phone_row_box3 .phone_picture_box3 {
+.earphone_row_box3 .earphone_picture_box3 {
     width: 32%;
     height: 100%;
 
 }
-.phone_row_box3 .phone_picture_box3 .p_box{
+.earphone_row_box3 .earphone_picture_box3 .p_box{
     width: 100%;
     height: 80%;
 
@@ -403,14 +402,14 @@
     justify-content: center;
 
 }
-.phone_row_box3 .phone_picture_box3 .p_box .p{
+.earphone_row_box3 .earphone_picture_box3 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/02/04/54b0ae26-5301-40d3-b655-090698472be9.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/is/image/samsung/sec-package-bts-edition-sm-r175n-sm-r175nzpbpmf-thumb-thumb-260607559?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box3 .phone_picture_box3 .t_box {
+.earphone_row_box3 .earphone_picture_box3 .t_box {
     width: 100%;
     height: 20%;
 
@@ -440,19 +439,19 @@
     font-size: 30px;
 }
 
-.phone_row_box4{
+.earphone_row_box4{
     width: 100%;
     height: 600px;
 
     display: flex;
     flex-direction: row;
 }
-.phone_row_box4 .phone_picture_box1{
+.earphone_row_box4 .earphone_picture_box1{
     width: 32%;
     height: 100%;
 
 }
-.phone_row_box4 .phone_picture_box1 .p_box{
+.earphone_row_box4 .earphone_picture_box1 .p_box{
     width: 100%;
     height: 80%;
 
@@ -462,14 +461,14 @@
     justify-content: center;
 
 }
-.phone_row_box4 .phone_picture_box1 .p_box .p{
+.earphone_row_box4 .earphone_picture_box1 .p_box .p{
     width: 100%;
     height: 100%;
     background-image: url(https://images.samsung.com/kdp/goods/2021/03/12/a942410a-7a32-45b2-baec-718d9476276b.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box4 .phone_picture_box1 .t_box {
+.earphone_row_box4 .earphone_picture_box1 .t_box {
     width: 100%;
     height: 20%;
 
@@ -486,12 +485,12 @@
     height: 100%;
     background-color: black;
 }
-.phone_row_box4 .phone_picture_box2 {
+.earphone_row_box4 .earphone_picture_box2 {
     width: 32%;
     height: 100%;
 }
 
-.phone_row_box4 .phone_picture_box2 .p_box{
+.earphone_row_box4 .earphone_picture_box2 .p_box{
     width: 100%;
     height: 80%;
 
@@ -501,14 +500,14 @@
     justify-content: center;
 
 }
-.phone_row_box4 .phone_picture_box2 .p_box .p{
+.earphone_row_box4 .earphone_picture_box2 .p_box .p{
     width: 100%;
     height: 100%;
     background-image: url(https://images.samsung.com/kdp/goods/2021/03/05/840226b0-352f-458c-bc0b-3fde7b459505.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
-.phone_row_box4 .phone_picture_box2 .t_box {
+.earphone_row_box4 .earphone_picture_box2 .t_box {
     width: 100%;
     height: 20%;
 

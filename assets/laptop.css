@@ -1,4 +1,4 @@
-.p_box1{
+.l_box1{
     width: 100%;
     height: 400px;
 
@@ -6,7 +6,7 @@
     flex-direction: row;
 
 }
-.half_box1{
+.l_box1 .half_box1{
     width: 50%;
     height: 100%;
     
@@ -19,7 +19,7 @@
     font-size: 50px;
     font-weight: 600;
 }
-.half_box2{
+.l_box1 .half_box2{
     width: 50%;
     height: 100%;
     background-image:url(https://images.samsung.com/kdp/goods/2021/04/26/aff9e858-7a23-41ae-bc93-a31e060b188b.png?$PF_PRD_PNG$); 
@@ -327,7 +327,7 @@
 .laptop_row_box3 .laptop_picture_box1 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/08/27/2a26b921-7558-4eda-b399-6c52c7595f7b.png?$PF_PRD_KDP_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/05/04/2a5cc7b3-f3c5-4c74-b21d-b59dd1f44578.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
@@ -366,7 +366,7 @@
 .laptop_row_box3 .laptop_picture_box2 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/03/09/4a5712f6-8b7a-4b9f-a705-96d35b5197e3.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/10/13/4c667743-48d5-4aef-9bd8-7a52077959d5.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
@@ -405,7 +405,7 @@
 .laptop_row_box3 .laptop_picture_box3 .p_box .p{
     width: 100%;
     height: 100%;
-    background-image: url(https://images.samsung.com/kdp/goods/2021/02/04/54b0ae26-5301-40d3-b655-090698472be9.png?$PF_PRD_PNG$);
+    background-image: url(https://images.samsung.com/kdp/goods/2021/09/13/c928f2fb-6334-423d-ad29-1e1f994db7c0.png?$PF_PRD_PNG$);
     background-size: 85%;
     background-repeat: no-repeat;
 }
