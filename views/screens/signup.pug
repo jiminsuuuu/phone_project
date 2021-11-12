@@ -1,8 +1,6 @@
 extends ../layouts/base.pug
 
 block content
-        script(src="/assets/sign.js") 
-
         div.signupBox
             form(action="/informations" method="POST")
                 div.NAME
@@ -19,13 +17,16 @@ block content
                 div.PHONENUM
                     label(htmlFor="phonenum") PHONE NUMBER : 
                     input(type="text" name="phonenum" placeholder="XXX-XXXX-XXXX" required)
+                div.NICKNAME
+                    label(htmlFor="nickname") NICKNAME : 
+                    input(type="nickname" name="nickname" placeholder="30자 이내") 
                 div.EMAIL
                     label(htmlFor="email") E-MAIL : 
                     input(type="email" name="email" required)
                 div.PASSWORD
                     label(htmlFor="password") PASSWORD :  
-                    input(type="password" name="password"  required)   
-                button(onclick="javascript:signup()") 회원가입
+                    input(type="password" name="password" placeholder="50자 이내" required)   
+                button 회원가입
         
 
 

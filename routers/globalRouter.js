@@ -44,6 +44,10 @@ router.get("/watch", (req,res)=>{
     res.render("screens/watch")
 });
 
+router.get("/reviewpage", (req,res) => {
+    res.render("screens/review")
+});
+
 router.get("/loginpage", (req, res) => {
     res.render("screens/signin")
 });
@@ -74,6 +78,7 @@ router.post("/informations", (req, res, next) => {
                     birth,
                     gender,
                     phonenum,
+                    nickname,
                     email,
                     password
                 ) VALUE (
@@ -81,6 +86,7 @@ router.post("/informations", (req, res, next) => {
                     "${req.body.birth}",
                     "${req.body.gender}",
                     "${req.body.phonenum}",
+                    "${req.body.nickname}",
                     "${req.body.email}",
                     "${req.body.password}"
                 )
@@ -111,12 +117,49 @@ router.post("/login" ,(req, res) => {
             console.error(error);
             return res.status(403).send("다시 시도해 주세요.")
         } else {
-             if(result.length<0) {
-                 return res.status(403).a
+             if(result.length<1) {
+                 return res.status(403).send("계정이 존재하지 않습니다.")
+             } else {
+                 return res.render("screens/main")
              }
         }
+    });
+});
+
+router.get("/", async(req,res) => {
+    let pointResult = null;
+    let contentResult = null;
+
+    const estimationQuery = `
+        SELECT  COUNT(id)   AS  COUNT,
+                AVG(point)  AS  avg
+          FROM  reviews
+        `;
+
+    const contentQuery = `
+        SELECT  id`
+});
+
+router.post("/writeReview", (req,res) => {
+    const reviewwriteQuery = `
+    INSERT INTO reviews (
+        point,
+        content
+    ) VALUES (
+        ${req.body.point},
+        "${req.body.content}"
+    )
+    `;
+
+    conn.query(reviewwriteQuery, (error, result) => {
+        if(error) {
+            console.error(error);
+            return res.status(403).send("다시 시도해주세요.")
+        } else {
+            res.render("screens/review")
+        }
     })
-})
+});
     
     
 
